@@ -16,12 +16,8 @@ function maxMinAvg( arr ){
     
     let avg = sum /arr.length;
 
-    return [ min, max, avg];
+    return "The minimum is " + min + ", the maximum is " + max + ", and the average is " + avg + '.';
     
 }
 
-let arrayNum = [1, -2, 9, 4];
-
-let nums = maxMinAvg( arrayNum );
-
-console.log( "The minimum is", nums[0], "the maximum is" , nums[1], "and the average is", nums[2]);
+console.log( maxMinAvg([1, -2, 9, 4]) );
